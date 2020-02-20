@@ -12,9 +12,10 @@ C# code to use Sharpsploit Injector
 Project → "Name of Project" Properties...
 Build -> Advanced → "Advanced Build Settings
 Set Output - Debug info to "None"
-6) Add Sharpsloit w/ Injector API as a reference (https://king-sabri.net/how-to-compile-embed-and-use-sharpsploit/)
-7) Build FuzzyThread: (i.e Build-->Configuration Manager--> FuzzyThead--> build)
-8) copy file and rename
+6) Add Sharpsloit w/ Injector API as a reference (https://king-sabri.net/how-to-compile-embed-and-use-sharpsploit)
+7) Disbale generating PDBs (https://dotnetnsqlcorner.blogspot.com/2014/04/how-to-disable-generating-pdb-files.html)
+8) Build FuzzyThread: (i.e Build-->Configuration Manager--> FuzzyThead--> build)
+9) copy file and rename
 ```
 
 Note:
@@ -25,8 +26,8 @@ Change the key: key in FuzzyThread: Headers.CS and XOREncrypt: Program.CS
 
 ### References:
 
-https://github.com/djhohnstein/CSharpCreateThreadExample
-https://king-sabri.net/how-to-compile-embed-and-use-sharpsploit/
-https://dotnetnsqlcorner.blogspot.com/2014/04/how-to-disable-generating-pdb-files.html
-https://twitter.com/_RastaMouse/status/1228445657729396736/photo/1
-https://github.com/cobbr/SharpSploit/tree/52ad861d98d75bb0a7f6cd9d421dc8a8463adc08
+https://github.com/djhohnstein/CSharpCreateThreadExample <br />
+https://twitter.com/_RastaMouse/status/1228445657729396736/photo/1 <br />
+https://github.com/cobbr/SharpSploit/tree/52ad861d98d75bb0a7f6cd9d421dc8a8463adc08 <br />
+https://king-sabri.net/how-to-compile-embed-and-use-sharpsploit/ <br />
+https://dotnetnsqlcorner.blogspot.com/2014/04/how-to-disable-generating-pdb-files.html <br />
